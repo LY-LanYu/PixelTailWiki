@@ -2,19 +2,25 @@
 
 ::: tip 注：
  此教程将会引导你使用外置登录,进入Pixeltail服务器
+ 所需的网站/软件:
+ 网站：<https://skin.2-10.cn/>
+ 应用：[HMCL]()
+:::
+::: danger 注意
+如果你想要游玩黄金周目（模组周目）你可能需要下载专门的整合包
 :::
 
 ## 1.注册&登录Little Skin
-![1.png](https://i.loli.net/2020/07/26/lOwfLBVYDey8xu2.png)
-![2.png](https://i.loli.net/2020/07/26/iMazEpPmjVbSDs4.png)
-![3.png](https://i.loli.net/2020/07/26/Hk1QKlOb6vmGufU.png)
-![4.png](https://i.loli.net/2020/07/26/qkB9QYCwd1gTAJt.png)
+![图片1.png](https://i.loli.net/2021/02/04/Kry6RcHjTnkfmxd.png)
+![图片2.png](https://i.loli.net/2021/02/04/a7T56eANJsGbQy1.png)
+![图片3.png](https://i.loli.net/2021/02/04/JcmCRtuDGPgB4lk.png)
+![图片4.png](https://i.loli.net/2021/02/04/O9liDtRK1ZTX2Po.png)
 
 ::: tip 注意
 Yggdrasil API 认证服务器地址 可能因为您所在的地区而异
 :::
 
-在“快速配置启动器”框中，可以看到“本站的 `Yggdrasil API 认证服务器地址`：https://mcskin.littleservice.cn/api/yggdrasil
+在“快速配置启动器”框中，可以看到“本站的 `Yggdrasil API 认证服务器地址`：https://skin.2-10.cn/api/yggdrasil
 ”
 
 ::: danger 注意
