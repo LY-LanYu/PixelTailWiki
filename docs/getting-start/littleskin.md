@@ -4,8 +4,10 @@
  此教程将会引导你使用外置登录,进入Pixeltail服务器
  所需的网站/软件:
  网站：<https://skin.2-10.cn/>
- 应用：[HMCL]()
+ 应用：[HMCL](https://www.mcbbs.net/thread-142335-1-1.html)
+ \*教程内使用的是HMCL，但是只要支持外置登录的启动器，均可以使用。
 :::
+
 ::: danger 注意
 如果你想要游玩黄金周目（模组周目）你可能需要下载专门的整合包
 :::
@@ -20,8 +22,7 @@
 Yggdrasil API 认证服务器地址 可能因为您所在的地区而异
 :::
 
-在“快速配置启动器”框中，可以看到“本站的 `Yggdrasil API 认证服务器地址`：https://skin.2-10.cn/api/yggdrasil
-”
+在“快速配置启动器”框中，可以看到对应的 `Yggdrasil API 认证服务器地址`为：https://skin.2-10.cn/api/yggdrasil
 
 ::: danger 注意
 玩家的ID必须符合正版Minecraft取名规范（即只允许包含**26个大小写英文字母**和**下划线“_”**）
