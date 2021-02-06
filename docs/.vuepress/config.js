@@ -46,7 +46,7 @@ module.exports = {
                         collapsable: true,
                         children: [
                             ['getting-start/whitelist.html', '成为Tails'],
-                            ['getting-start/littleskin.html', '配置外置登录'],
+                            ['getting-start/authlib-injector.html', '配置外置登录'],
                             ['getting-start/socialmedia.html', '群组信息']
                         ]
                     },
