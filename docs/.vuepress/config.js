@@ -1,7 +1,16 @@
-module.exports = {
+const { config } = require("vuepress-theme-hope");
+
+module.exports = config({
     title: 'PixelTail Wiki',
     base: '',
-    ga: 'G-EL9XLR0RJR',
+    plugins: [
+        [
+          '@vuepress/google-analytics',
+          {
+            'ga': 'UA-173388738-2' // UA-00000000-0
+          }
+        ]
+    ],
     head: [
         ['link', { rel: 'icon', href: 'https://210-oss-ufile-cn.glowtree.cn/beehive%2F4%2Ffavicon.ico' }]
     ],
@@ -11,14 +20,37 @@ module.exports = {
         externalLinks: { target: '_blank' }
     },
     themeConfig: {
+        blog: false,
+        sidebarDepth: 1,
+        pageInfo: false,
+        comment: false,
+        baseLang: 'zh-CN',
+        darkmode: 'auto-switch',
+        footer: [
+            {display: true},
+            {copyright: 'Copyright © PixelTail'}
+        ],
+        mdEnhance: {
+            enableAll: true,
+          },
+        pwa: false,
+        sidebarIcon: false,
+        breadcrumbIcon: false,
+        repoDisplay: false, 
         docsRepo: 'BillZhucn/PixelTailWiki',
         docsBranch: 'master',
         docsDir: 'docs',
         editLinks: true,
         editLinkText: '帮助我们完善本页面',
         nav: [
-            { text: '前往皮肤站', link: 'https://skin.2-10.cn/' },
-            { text: '捐助众筹', link: 'https://afdian.net/@PixelTail' }
+            { text: '皮肤站', link: 'https://skin.2-10.cn/' },
+            {
+                text: '赞助我们',
+                items: [
+                  { text: 'PixelTail', link: 'https://afdian.net/@PixelTail' },
+                  { text: 'PixelTail-Neon', link: 'https://afdian.net/@PixelTailNeon' }
+                ]
+            }
         ],
         sidebar: [
             {
@@ -34,13 +66,13 @@ module.exports = {
                 collapsable: true,
                 children: [
                     ['whats-pixeltail/introduction.html', '简介'],
-                    ['whats-pixeltail/rules.html', '服务器玩家守则'],
+                    ['whats-pixeltail/rules.html', 'Tails公约'],
                     {
                         title: '如何加入PixelTail',
                         collapsable: true,
                         children: [
                             ['getting-start/whitelist.html', '成为Tails'],
-                            ['getting-start/littleskin.html', '配置外置登录'],
+                            ['getting-start/authlib-injector.html', '配置外置登录'],
                             ['getting-start/socialmedia.html', '群组信息']
                         ]
                     },
@@ -80,4 +112,4 @@ module.exports = {
         smoothScroll: true
     },
     evergreen: false
-}
+});
